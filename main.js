@@ -62,7 +62,7 @@ const s2 = dom.find('#s2')[0];
 console.log(dom.siblings(s2));
 // 找弟弟
 console.log(dom.next(s2));
-console.log(dom.pervious(s2));
+console.log(dom.previous(s2));
 
 // 遍历
 const t = dom.find('#travel')[0];

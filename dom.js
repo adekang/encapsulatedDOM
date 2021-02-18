@@ -121,7 +121,7 @@ window.dom = {
         }
         return x;
     },
-    pervious(node) {
+    previous(node) {
         let x = node.previousSibling
         while(x && x.nodeType === 3){
           x = x.previousSibling
